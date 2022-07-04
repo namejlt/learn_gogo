@@ -36,3 +36,9 @@ mongodb
 读书笔记目录
 
 ```
+
+## 任务列表
+
+[第一周](https://github.com/namejlt/learn_gogo/tree/main/task/1_month/1_week)
+
+[第二周](https://github.com/namejlt/learn_gogo/tree/main/task/1_month/2_week)
