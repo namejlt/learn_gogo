@@ -7,7 +7,7 @@ func main() {
 	for {
 		fmt.Println(i)
 		if i >= 10 {
-			break
+			break //中断循环
 		}
 		i++
 	}
