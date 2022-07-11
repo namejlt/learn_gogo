@@ -1,0 +1,12 @@
+1:指针变量和整形变量
+
+
+2：值类型和引用类型
+
+
+3：golang类型断言
+
+
+4：func param (a string)
+   func param (b ...int)
+   func param (c interface{})
