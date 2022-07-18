@@ -2,12 +2,16 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"mini_blog/controller"
 )
 
 func main() {
 	router := gin.Default()
-	router.GET("/", func(ctx *gin.Context) {
-		ctx.String(200, "Hello mini_blog")
-	})
+	router.LoadHTMLGlob("views/*")
+
+	router.GET("/", controller.Welcome)          //初始化接口
+	router.GET("/login", controller.Login)       //登录接口
+	router.GET("/register", controller.Register) //注册接口
+
 	router.Run()
 }
