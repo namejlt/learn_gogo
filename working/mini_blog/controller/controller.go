@@ -7,9 +7,9 @@ func Welcome(ctx *gin.Context) {
 }
 
 func Login(ctx *gin.Context) {
-	ctx.HTML(200, "login.html", nil)
+	ctx.HTML(200, "login.html", nil) //登录页面模板渲染
 }
 func Register(ctx *gin.Context) {
 
-	ctx.HTML(200, "register.html", nil)
+	ctx.HTML(200, "register.html", nil) //注册页面模板渲染
 }
