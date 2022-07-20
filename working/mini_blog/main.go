@@ -9,7 +9,7 @@ func main() {
 	router := gin.Default()
 	router.LoadHTMLGlob("views/*")
 
-	router.GET("/", controller.Welcome)          //初始化接口
+	router.GET("/", controller.Login)            //初始化接口
 	router.GET("/login", controller.Login)       //登录接口
 	router.GET("/register", controller.Register) //注册接口
 
